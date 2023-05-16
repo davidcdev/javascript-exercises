@@ -17,7 +17,8 @@ for (let i = 1; i <= 100; i++) {
     }
 } 
 
-// For the solution with Switch to work the argument on switch has to be boolean true, so it can compare each case against it and give the expected output, before I had put i as the argument so it was just going to the default without considering the cases.
+/* For the solution with Switch to work the argument on switch has to be boolean true, so it can compare each case against it and give the expected output.
+Before I had put i as the argument so it was just going to the default without considering the cases. */
 
 for (let i = 1; i <= 100; i++) {
     switch (true) {
